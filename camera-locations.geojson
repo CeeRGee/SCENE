@@ -1,0 +1,335 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rumrill & California",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3538,
+          37.9506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Market",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3532,
+          37.9495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brookside",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3425,
+          37.9479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miner",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3654,
+          37.9723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3473,
+          37.9582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake & 10th",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3457,
+          37.9574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Broadway & 14th",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3436,
+          37.9616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rumrill",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3525,
+          37.9553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pablo Ave",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3425,
+          37.961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pablo Ave & Lake",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3452,
+          37.9588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rivers",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3435,
+          37.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stanton",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3477,
+          37.9501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mission Bell",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3418,
+          37.9652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Portal & Rollingwood",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3385,
+          37.965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fordham",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3516,
+          37.964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I-80 Offramp",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3427,
+          37.9655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2023 Vale",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3447,
+          37.9603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2140 Vale",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3438,
+          37.9608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pablo Ave & Rheem",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3403,
+          37.9373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pablo Dam",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3013,
+          37.9621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pablo Ave & Church",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3414,
+          37.9549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pablo Dam & I-80 West",
+        "type": "Camera",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3035,
+          37.962
+        ]
+      }
+    }
+  ]
+}

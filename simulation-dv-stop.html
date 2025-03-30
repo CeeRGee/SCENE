@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SCENE - DV Survivor Simulator Enhanced</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .scene {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .scene h2 {
+      color: #d62828;
+    }
+    .scene p {
+      margin: 15px 0;
+    }
+    .btn {
+      display: block;
+      margin: 10px 0;
+      padding: 12px;
+      font-size: 1rem;
+      background: #003049;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      text-align: left;
+    }
+    .btn:hover {
+      background: #264653;
+    }
+    .accessibility {
+      font-size: 0.85rem;
+      color: #555;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="scene" id="scene">
+    <h2>🚨 Scene 1: The Blurp</h2>
+    <p>3:34 AM. You just turned onto Vale Rd. Red and blue lights flash in your rearview.</p>
+    <p>You left a DV incident, you're on probation, and the pressure's on. What do you do?</p>
+    <button class="btn" onclick="loadScene(2)">🛑 Pull over and keep hands visible</button>
+    <button class="btn" onclick="loadScene(3)">📱 Activate SCENE covert recording</button>
+    <button class="btn" onclick="loadScene(4)">🚗 Drive to a lit gas station</button>
+    <div class="accessibility">All buttons are keyboard-accessible. Use tab + enter to navigate.</div>
+  </div>
+
+  <script>
+    function loadScene(num) {
+      const scene = document.getElementById('scene');
+      if (num === 2) {
+        scene.innerHTML = `
+          <h2>👮 Scene 2: Pulled Over</h2>
+          <p>The officers approach. White female and Latino male. Tension is high.</p>
+          <button class="btn" onclick="loadOutcome('✅ You calmly explain. Officers pause. Backup called.')">👤 Explain DV situation</button>
+          <button class="btn" onclick="loadOutcome('❌ You stay silent. Officer becomes aggressive.')">❌ Stay silent</button>
+          <button class="btn" onclick="loadOutcome('📡 SCENE panic alert triggered. GPS+record sent.')">📱 Trigger Panic Alert</button>
+        `;
+      } else if (num === 3) {
+        scene.innerHTML = `
+          <h2>📱 Scene 3: Covert Recording</h2>
+          <p>You activate SCENE. Camera on, GPS locked, mic recording.</p>
+          <button class="btn" onclick="loadOutcome('📖 SCENE reads your rights. Officers hesitate.')">📖 Let SCENE read rights</button>
+          <button class="btn" onclick="loadOutcome('🧘 You ask for DV advocate. Officer ignores.')">🧘 Ask for advocate</button>
+          <button class="btn" onclick="loadOutcome('🫎 You remain silent. A witness records nearby.')">🫎 Remain silent</button>
+        `;
+      } else if (num === 4) {
+        scene.innerHTML = `
+          <h2>⛽ Scene 4: Gas Station Stop</h2>
+          <p>You pull into a gas station. Officers follow fast. Cameras catch it all.</p>
+          <button class="btn" onclick="loadOutcome('🎥 You exit calmly. People start filming.')">🎥 Exit calmly</button>
+          <button class="btn" onclick="loadOutcome('📣 You yell for help. SCENE sends push alert to contact.')">📣 Call for help</button>
+          <button class="btn" onclick="loadOutcome('📲 DV Safety Mode activates hotline + location share.')">📲 Activate DV Safety Mode</button>
+        `;
+      }
+    }
+
+    function loadOutcome(text) {
+      document.getElementById('scene').innerHTML = `
+        <h2>✅ Outcome</h2>
+        <p>${text}</p>
+        <p>Your action is saved in the secure SCENE case log.</p>
+        <button class="btn" onclick="location.reload()">🔁 Restart Scenario</button>
+      `;
+    }
+  </script>
+</body>
+</html>

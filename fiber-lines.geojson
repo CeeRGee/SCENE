@@ -1,0 +1,25 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Buried Fiber Route",
+          "description": "Estimated underground fiber connecting key cabinets and surveillance nodes.",
+          "status": "active",
+          "category": "fiber-route",
+          "note": "Route connects Contra Costa College, San Pablo City Hall, and the new police headquarters."
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-122.3456, 37.9601],
+            [-122.3420, 37.9625],
+            [-122.3494, 37.9610],
+            [-122.3471, 37.9589]
+          ]
+        }
+      }
+    ]
+  }
+  

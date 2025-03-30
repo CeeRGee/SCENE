@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pablo Ave & Rivers Street",
+        "type": "Pole-Mounted Camera",
+        "installed": "2019",
+        "vendor": "Unknown",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3452,
+          37.9594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Market Ave & Rumrill Blvd",
+        "type": "Streetlight Cam + ALPR",
+        "installed": "2021",
+        "vendor": "Vigilant",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3533,
+          37.9495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pablo Ave & Church Ln",
+        "type": "Pole Camera",
+        "installed": "2020",
+        "vendor": "Unknown",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3414,
+          37.9549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "23rd St & Market Ave",
+        "type": "Gun Detection + Pole Cam",
+        "installed": "2022",
+        "vendor": "SoundThinking",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.339,
+          37.9362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Giant Rd & Miner Ave",
+        "type": "Planned Surveillance Pole",
+        "installed": "",
+        "vendor": "",
+        "status": "planned"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3654,
+          37.9723
+        ]
+      }
+    }
+  ]
+}

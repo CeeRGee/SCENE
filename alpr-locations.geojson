@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pablo Ave & Rivers Street",
+        "type": "ALPR + Dome Cam",
+        "status": "active",
+        "installed": "2020",
+        "vendor": "Vigilant Solutions",
+        "cost": "$47,800"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3452, 37.9594]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pablo Ave & Church Ln",
+        "type": "ALPR",
+        "status": "active",
+        "installed": "2021",
+        "vendor": "Motorola",
+        "cost": "$22,500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3414, 37.9549]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Market Ave & Rumrill Blvd",
+        "type": "ALPR",
+        "status": "active",
+        "installed": "2021",
+        "vendor": "Vigilant Solutions",
+        "cost": "$22,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3533, 37.9495]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Giant Rd & Miner Ave",
+        "type": "ALPR",
+        "status": "planned",
+        "installed": "",
+        "vendor": "",
+        "cost": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3654, 37.9723]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "23rd St & Market Ave",
+        "type": "ALPR + Gun Detection",
+        "status": "active",
+        "installed": "2022",
+        "vendor": "SoundThinking, Vigilant",
+        "cost": "$68,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3390, 37.9362]
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+   
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rumrill & Market Mobile Tower",
+        "type": "Mobile Surveillance Unit",
+        "installed": "2021",
+        "vendor": "Motorola",
+        "note": "Frequently deployed during community events or protests",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3530, 37.9493]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pablo Ave & Broadway",
+        "type": "ALPR Trailer",
+        "installed": "2020",
+        "vendor": "Vigilant Solutions",
+        "note": "Trailer spotted multiple times near hot zone intersections",
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3459, 37.9632]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Contra Costa College Lot C",
+        "type": "Mobile Command Van",
+        "installed": "",
+        "vendor": "",
+        "note": "Used during training exercises and active monitoring days",
+        "status": "occasional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3369, 37.9555]
+      }
+    }
+  ]
+}
+

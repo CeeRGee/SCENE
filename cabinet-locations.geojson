@@ -1,0 +1,73 @@
+   "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Broadband Cabinet A",
+          "description": "Suspected surveillance hub based on Broadband RFP and city map overlay.",
+          "status": "active",
+          "category": "infrastructure"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.3456, 37.9601]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Broadband Cabinet B",
+          "description": "Located near known camera pole and ShotSpotter activity.",
+          "status": "suspected",
+          "category": "infrastructure"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.3420, 37.9625]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Surveillance Node – West",
+          "description": "Pole-mounted cabinet with ALPR and dome cam observed.",
+          "status": "active",
+          "category": "surveillance"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.3471, 37.9589]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Community Hub Cabinet",
+          "description": "Near public housing; suspected data collection via fiber.",
+          "status": "monitored",
+          "category": "infrastructure"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.3494, 37.9610]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Buried Fiber Route",
+          "description": "Estimated underground fiber connecting key cabinets.",
+          "category": "fiber-route"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-122.3456, 37.9601],
+            [-122.3420, 37.9625],
+            [-122.3494, 37.9610],
+            [-122.3471, 37.9589]
+          ]
+        }
+      }
+    ]
+  }
